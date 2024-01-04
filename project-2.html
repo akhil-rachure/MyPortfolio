@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of NYC-TLC Trip Analysis</title>
+    <title>Case Study of Sentiment Analysis of Amazon Fine Food Reviews</title>
     <link rel="icon" type="image/x-icon" href="./assets/png/face-head.ico">
     <meta name="description" content="Case study page of Project" />
 
@@ -112,48 +112,43 @@
             <div class="project-details__desc">
               <h4 class="project-details__content-title">Project Overview</h4>
               <p class="project-details__desc-para">
-                The primary goal
-                of this project is to establish a comprehensive data analytics pipeline for NYC TLC data using a combination of Python, Google Cloud Platform (GCP), and Mage-AI Data Pipeline tool. The ultimate objective is to develop an analytics dashboard using Looker Studio.
+                The project aimed to analyze the polarity of Amazon fine food reviews, utilizing a dataset sourced from Kaggle. The primary objective was to determine the sentiment of reviews, categorizing them as either positive or negative.
               </p>
               <h4 class="project-details__content-title">Project Execution</h4>
               <p class="project-details__desc-para">
-                Data Extraction/Acquisition: Dataset is acquired from the official nyc.gov website, it focusses on TLC's yellow and green taxi trip records. This dataset includes crucial information such as pick-up and drop-off times, locations, trip distances, rate types, payment types.
+                Exploratory Data Analysis:
+    During the EDA phase, duplicates were identified and removed, and missing values were appropriately handled. Key statistics of the dataset were summarized, shedding light on the distribution of ratings.
               </p>
 
               <p class="project-details__desc-para">
-              Data Modeling: The Dataset/flat file is converted into STAR Schema. A comprehensive data model is designed by creating Fact and Dimension tables based on the existing data frame. The Schema is implemented in python.
+                Preprocessing:
+Steps were taken to clean and preprocess the text data, including the removal of HTML tags, punctuation, and stopwords. Notably, Snowball Stemming was employed for stemming the word to common root.
               </p>
 
               <p class="project-details__desc-para">
-                ETL and Data Transformation: I leveraged Mage-AI for ETL, which is an excellent data pipeline tool for transforming and integrating data. The data is Extracted from the Google Cloud Storage, Transformed into desired format using Python and Loaded into BigQuery for further analysis. All this process is being done on a Virtual Machine on Cloud.
+                Machine Learning:
+The machine learning process involved converting text to vectors using techniques such as Bag of Words, TF-IDF, Average Word2Vec, and TF-IDF Word2Vec. Various ML models were applied, accompanied by thorough hyperparameter tuning. Feature engineering was explored, incorporating factors like the length of reviews.
               </p>
 
               <p class="project-details__desc-para">
-                Cloud Computing and Data Analysis: Google Cloud Platform is used as the Cloud Infrastructure for handling robust and scalable data . GCP Services used - Compute Engine, Cloud Storage, BigQuery, Firewall, Looker Studio
+                Results and Visualization:
+Outcomes of the machine learning models were analyzed, showcasing metrics such as accuracy, precision, recall, and F1-score. Visualizations, created using Seaborn and Matplotlib, were presented to enhance understanding.
               </p>
-
-              <p class="project-details__desc-para">
-                Data Visualization: Looker Studio is used for visualization of data and building dashboards. The data is extracted from BigQuery tables.
-              </p>
-              <h4 class="project-details__content-title">Infrastructure</h4>
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/ProjectImages/P1NYC.png"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
 
 
             </div>
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
+              <h3 class="project-details__content-title">Tools & Methodologies</h3>
               <div class="skills">
                 <div class="skills__skill">Python</div>
-                <div class="skills__skill">Google Cloud Platform</div>
-                <div class="skills__skill">Mage-AI</div>
-                <div class="skills__skill">BigQuery</div>
-                <div class="skills__skill">Looker Studio</div>
+                <div class="skills__skill">Machine Learning</div>
+                <div class="skills__skill">Natural Language Processing</div>
+                <div class="skills__skill">SQL</div>
+                <div class="skills__skill">Sklearn</div>
+                <div class="skills__skill">NLTK</div>
+                <div class="skills__skill">Data Cleaning</div>
+                <div class="skills__skill">Exploratory Data Analysis</div>
+                <div class="skills__skill">Feature Engineering</div>
 
               </div>
             </div>
