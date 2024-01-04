@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 3</title>
+    <title>Case Study of Real-Time Stock Market data pipeline</title>
+    <link rel="icon" type="image/x-icon" href="./assets/png/face-head.ico">
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -22,12 +23,12 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
+              src="./assets/jpeg/profile.jpg"
+              alt="Akhil Rachure Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Akhil Rachure</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -84,79 +85,91 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 3</h1>
+        <h1 class="heading-primary">Real-Time Stock Market data pipeline</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+          Building a Dynamic End-to-End Data Pipeline: Real-Time Stock Market Data Engineering with Apache Kafka.
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://github.com/akhil-rachure/Real-Time-Stock-Market-data-pipeline"
+             class="btn btn--bg"
+             target="_blank">GitHub</a>
         </div>
       </div>
     </section>
     <section class="project-details">
       <div class="main-container">
         <div class="project-details__content">
+<!--          <div class="project-details__showcase-img-cont">-->
+<!--            <img-->
+<!--              src="./assets/ProjectImages/P1NYC.png"-->
+<!--              alt="Project Image"-->
+<!--              class="project-details__showcase-img"-->
+<!--            />-->
+<!--          </div>-->
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h4 class="project-details__content-title">Project Overview</h4>
+              <p class="project-details__desc-para">
+                The primary goal
+                of this project is to establish a comprehensive data analytics pipeline for NYC TLC data using a combination of Python, Google Cloud Platform (GCP), and Mage-AI Data Pipeline tool. The ultimate objective is to develop an analytics dashboard using Looker Studio.
+              </p>
+              <h4 class="project-details__content-title">Project Execution</h4>
+              <p class="project-details__desc-para">
+                Data Extraction/Acquisition: Dataset is acquired from the official nyc.gov website, it focusses on TLC's yellow and green taxi trip records. This dataset includes crucial information such as pick-up and drop-off times, locations, trip distances, rate types, payment types.
+              </p>
+
+              <p class="project-details__desc-para">
+              Data Modeling: The Dataset/flat file is converted into STAR Schema. A comprehensive data model is designed by creating Fact and Dimension tables based on the existing data frame. The Schema is implemented in python.
+              </p>
+
+              <p class="project-details__desc-para">
+                ETL and Data Transformation: I leveraged Mage-AI for ETL, which is an excellent data pipeline tool for transforming and integrating data. The data is Extracted from the Google Cloud Storage, Transformed into desired format using Python and Loaded into BigQuery for further analysis. All this process is being done on a Virtual Machine on Cloud.
+              </p>
+
+              <p class="project-details__desc-para">
+                Cloud Computing and Data Analysis: Google Cloud Platform is used as the Cloud Infrastructure for handling robust and scalable data . GCP Services used - Compute Engine, Cloud Storage, BigQuery, Firewall, Looker Studio
+              </p>
+
+              <p class="project-details__desc-para">
+                Data Visualization: Looker Studio is used for visualization of data and building dashboards. The data is extracted from BigQuery tables.
+              </p>
+              <h4 class="project-details__content-title">Infrastructure</h4>
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/ProjectImages/P1NYC.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
           </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
+
+
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Google Cloud Platform</div>
+                <div class="skills__skill">Mage-AI</div>
+                <div class="skills__skill">BigQuery</div>
+                <div class="skills__skill">Looker Studio</div>
+
               </div>
             </div>
             <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
+              <h3 class="project-details__content-title">Resources</h3>
+<!--              <a-->
+<!--                href="#"-->
+<!--                class="btn btn&#45;&#45;med btn&#45;&#45;theme project-details__links-btn"-->
+<!--                target="_blank"-->
+<!--                >Live Link</a-->
+<!--              >-->
               <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
+                href="https://github.com/akhil-rachure/Real-Time-Stock-Market-data-pipeline"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
-                >Code Link</a
+                >Code Link (Github)</a
               >
             </div>
           </div>
@@ -171,58 +184,53 @@
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/akhil-rachure/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/akhil-rachure">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
+<!--              <a target="_blank" rel="noreferrer" href="#">-->
+<!--                <img-->
+<!--                  class="main-footer__icon"-->
+<!--                  src="./assets/png/twitter-ico.png"-->
+<!--                  alt="icon"-->
+<!--                />-->
+<!--              </a>-->
+<!--              <a target="_blank" rel="noreferrer" href="#">-->
+<!--                <img-->
+<!--                  class="main-footer__icon"-->
+<!--                  src="./assets/png/yt-ico.png"-->
+<!--                  alt="icon"-->
+<!--                />-->
+<!--              </a>-->
+<!--              <a target="_blank" rel="noreferrer" href="#">-->
+<!--                <img-->
+<!--                  class="main-footer__icon main-footer__icon&#45;&#45;mr-none"-->
+<!--                  src="./assets/png/insta-ico.png"-->
+<!--                  alt="icon"-->
+<!--                />-->
+<!--              </a>-->
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Akhil Rachure</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              A Data Engineer and Backend Developer,
+            who has worked on the end-to-end Data Science life cycle and SDLC,
+            possesses proven experience in delivering successful projects
             </p>
           </div>
         </div>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
       </div>
     </footer>
     <script src="./index.js"></script>
